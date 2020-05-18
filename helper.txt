@@ -1,0 +1,6 @@
+//TO INSTALL PLUGIND Without asking FTP username,password
+
+sudo chown -R daemon htdocs  
+sudo chmod -R g+w htdocs
+
+define('FS_METHOD', 'direct'); //wp-config.php 

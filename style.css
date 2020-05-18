@@ -1,0 +1,183 @@
+/* stylelint-disable */
+/**
+ * Theme Name:  kopuram-dev
+ * Theme URI:   http://localhost/kopuram
+ * Description: Kopuram is an innovative, Gutenberg-first WordPress theme, hyper-focused on empowering makers to build beautifully rich websites with WordPress.
+ * Author:      Veeramani Murugesan
+ * Author URI:  http://www.veeramk.in 
+ * Version:     1.0.0
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: kopuram.com
+ * Domain Path: /languages
+ * Tags:        one-column, custom-colors, custom-logo, custom-menu, editor-style, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks
+ 
+ * Copyright © 2020 www.kopuram.com. All Rights Reserved.
+ */
+/* stylelint-enable */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans&display=swap");
+@import url("./custom.css");
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #fff;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+li {
+    font-family: "Montserrat", sans-serif;
+}
+
+.kp-text-primary {
+    color: #ab363e;
+}
+
+.kp-text-secondory {
+    color: #011f54;
+}
+
+.kp-bg-primary {
+    background-color: #ab363e;
+}
+
+.kp-bg-secondory {
+    background-color: #011f54;
+}
+
+/** Header Page **/
+header {
+    height: 120px;
+    background-color: #fff;
+}
+.navbar {
+    padding-top: 50px;
+}
+.navbar-brand {
+    color: #011f54;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 27px;
+}
+.navbar-brand > img {
+    margin-right: 5px;
+}
+
+.nav-item {
+    padding: 0px 25px;
+    font-size: 18px;
+}
+.nav-link {
+    color: #011f54;
+    display: inline-block;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: #011f54;
+}
+
+.nav-link.active::after {
+    content: "";
+    display: block;
+    width: 75%;
+    height: 2px;
+    border-bottom: #ab363e solid 3px;
+}
+
+.nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: width 0.5s;
+    border-bottom: #ab363e solid 3px;
+}
+
+.nav-link:hover::after {
+    width: 75%;
+}
+
+/** Home Page **/
+
+.section1 .section2,
+.section3,
+.section4,
+.section5,
+.section6,
+.section7 {
+    height: 768px;
+    padding: 20px;
+}
+.welcome_text {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 70px;
+    padding-top: 50%;
+}
+.welcome_description {
+    color: #8c9aa9;
+    font-family: "Open Sans";
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+
+.shadow_primary {
+    -webkit-box-shadow: 8px 13px 58px -1px rgba(250, 175, 193, 1);
+    -moz-box-shadow: 8px 13px 58px -1px rgba(250, 175, 193, 1);
+    box-shadow: 8px 13px 58px -1px rgba(250, 175, 193, 1);
+}
+
+.title_text {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.why-card {
+    height: 380px;
+    border-radius: 70px;
+    padding: 30px;
+}
+.why-card:hover {
+    height: 380px;
+    border-radius: 70px;
+    padding: 30px;
+    -webkit-box-shadow: 0px 200px 211px 53px rgba(247, 237, 247, 1);
+    -moz-box-shadow: 0px 200px 211px 53px rgba(247, 237, 247, 1);
+    box-shadow: 0px 200px 211px 53px rgba(247, 237, 247, 1);
+}
+
+/** Side Dot Scroll Bar **/
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background: red;
+    width: 8px;
+    height: 8px;
+    margin: -4px 0 0 -4px;
+}
+
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span {
+    width: 16px;
+    height: 16px;
+    margin: -8px 0 0 -8px;
+    background: transparent;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
