@@ -27,10 +27,10 @@
                             <a class="nav-link" href="#">Why Kash?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Schemes</a>
+                            <a class="nav-link " href="#">Schemes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#">Contact us</a>
+                            <a class="nav-link active" href="#">Contact us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Gallery</a>
@@ -43,7 +43,8 @@
         <div class="row">
             <div class="col-md-6 text-left" style="padding-left:5%">
                 <div class="pt-50">
-                    <h1 class="kp-text-secondory title_text">Find a perfect <br>Product for your need</h1>
+                    <h1 class="kp-text-secondory title_text">Let's collaborate</h1>
+                    <p class="welcome_description ">Any questions or remarks?<br> Just write a message <p>
                 </div>
             </div>
             <div class="col-md-6">
