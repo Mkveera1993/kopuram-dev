@@ -12,7 +12,7 @@ function kopuram_enqueue_scripts(){
 // all scripts
 wp_enqueue_script( 'jquery-js', get_template_directory_uri() . '/lib/js/jquery.min.js');
 wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/lib/js/bootstrap.min.js');
-wp_enqueue_script( 'fullpage-js', get_template_directory_uri() . '/lib/js/fullpage.min.js');
+wp_enqueue_script( 'slick-js', get_template_directory_uri() . '/lib/js/slick.js');
 
 }
 
