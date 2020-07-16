@@ -46,7 +46,7 @@
     </div>
     <div class="row">
         <div class="col-md-4 why-card">
-            <div class="imgDiv" style="background-color:#D9EEF4;">
+            <div class="imgDiv" style="background-color:rgba(236,18,48,0.05);">
                 <svg class="img1" viewBox="-29 0 487 487.71902" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="m279.394531 232.484375c0-4.421875-3.582031-8-8-8h-52.441406v-75.175781c0-4.417969-3.582031-8-8-8s-8 3.582031-8 8v82.9375c0 4.417968 3.214844 8.238281 7.632813 8.238281h60.808593c4.417969 0 8-3.582031 8-8zm0 0" />
@@ -65,7 +65,7 @@
             </div>
         </div>
         <div class="col-md-4 why-card">
-            <div class="imgDiv" style="background-color:#D9EFCB;">
+            <div class="imgDiv" style="background-color:rgba(236,18,48,0.05);">
                 <svg class="img2" viewBox="-29 0 487 487.71902" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="m220.867188 266.175781c-.902344-.195312-1.828126-.230469-2.742188-.09375-9.160156-1.066406-16.070312-8.816406-16.085938-18.035156 0-4.417969-3.582031-8-8-8-4.417968 0-8 3.582031-8 8 .023438 15.394531 10.320313 28.878906 25.164063 32.953125v8c0 4.417969 3.582031 8 8 8s8-3.582031 8-8v-7.515625c17.132813-3.585937 28.777344-19.542969 26.976563-36.953125-1.804688-17.410156-16.472657-30.640625-33.976563-30.644531-10.03125 0-18.164063-8.132813-18.164063-18.164063s8.132813-18.164062 18.164063-18.164062 18.164063 8.132812 18.164063 18.164062c0 4.417969 3.582031 8 8 8 4.417968 0 8-3.582031 8-8-.023438-16.164062-11.347657-30.105468-27.164063-33.441406v-7.28125c0-4.417969-3.582031-8-8-8s-8 3.582031-8 8v7.769531c-16.507813 4.507813-27.132813 20.535157-24.859375 37.496094s16.746094 29.621094 33.859375 29.617187c9.898437 0 17.972656 7.925782 18.152344 17.820313.183593 9.894531-7.597657 18.113281-17.488281 18.472656zm0 0" />
@@ -87,7 +87,7 @@
             </div>
         </div>
         <div class="col-md-4 why-card">
-            <div class="imgDiv" style="background-color:#ECD6E8;">
+            <div class="imgDiv" style="background-color:rgba(236,18,48,0.05);">
                 <svg class="img3" viewBox="-29 0 487 487.71902" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="m378.351562 70.472656c.214844.015625.429688.03125.648438.03125.371094 0 .742188-.03125 1.105469-.082031 9.722656.199219 17.503906 8.128906 17.515625 17.851563 0 4.417968 3.582031 8 8 8 4.417968 0 8-3.582032 8-8-.019532-15.902344-11.089844-29.660157-26.621094-33.082032v-7.6875c0-4.417968-3.582031-8-8-8s-8 3.582032-8 8v8.050782c-16.421875 4.390624-27.046875 20.277343-24.832031 37.132812 2.214843 16.855469 16.582031 29.457031 33.582031 29.457031 9.871094 0 17.871094 8.003907 17.871094 17.875 0 9.867188-8 17.871094-17.871094 17.871094s-17.871094-8.003906-17.871094-17.871094c0-4.417969-3.582031-8-8-8-4.417968 0-8 3.582031-8 8 .019532 15.328125 10.316406 28.738281 25.121094 32.71875v8.765625c0 4.417969 3.582031 8 8 8s8-3.582031 8-8v-8.398437c16.894531-3.699219 28.289062-19.535157 26.425781-36.730469-1.859375-17.195312-16.378906-30.226562-33.675781-30.222656-9.597656.003906-17.484375-7.574219-17.863281-17.164063-.375-9.589843 6.894531-17.765625 16.464843-18.511719zm0 0" />
@@ -114,7 +114,7 @@
     </div>
 </section>
 <section>
-    <div class="row">
+    <div class="row" style="margin-top:150px">
         <div class="col-md-7">
             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/ban.jpg"
                 alt="Chit Fund Card">
@@ -211,16 +211,24 @@
         </div>
     </div>
 </section>
-<!-- <section>
+<section>
         <div class="row ">
             <div class="col-md-10 offset-md-1 text-center">
                 <h1 class="kp-text-secondory title_text">Testimonials</h1>
                 <p class="welcome_description ">Our customers love what we do<p>
             </div>
         </div>
-        <div class="row">
+        <div class="row" style="margin-top:50px">
+        <div class="col-md-3">
         </div>
-    </section> -->
+        <div class="col-md-6">
+            <div class="active-testi">
+                    <p class="testi-text kp-text-secondory ">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolo"</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+        </div>
+    </section>
 <section>
     <div class="row ">
         <div class="text-center">
@@ -232,47 +240,8 @@
     </div>
 </section>
 <section style="padding-left:0px;padding-right:0px">
-    <!-- <div class="row blogCarousel">
-        <div class="col-md-4 blogItemDiv slide">
-            <div class="card ">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog1.jpg" class="card-img-top"
-                    alt="...">
-                <div class="card-body">
-                    <h4 class="kp-text-secondory">Lorem Ipsum</h4>
-                    <p class="description kp-text-grey">Duis autem vel eum iriure dolor in hendrerit in
-                        vulputate
-                        velit
-                        esse molestie consequat.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 blogItemDiv active slide">
-            <div class="card">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog2.jpg" class="card-img-top"
-                    alt="...">
-                <div class="card-body">
-                    <h4 class="kp-text-secondory">Lorem Ipsum</h4>
-                    <p class="description kp-text-grey">Duis autem vel eum iriure dolor in hendrerit in
-                        vulputate
-                        velit
-                        esse molestie consequat.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 blogItemDiv slide">
-            <div class="card">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog3.jpg" class="card-img-top"
-                    alt="...">
-                <div class="card-body">
-                    <h4 class="kp-text-secondory">Lorem Ipsum</h4>
-                    <p class="description kp-text-grey">Duis autem vel eum iriure dolor in hendrerit in
-                        vulputate velit
-                        esse molestie consequat.</p>
-                </div>
-            </div>
-        </div>
-    </div>   -->
-    <div class="customer-logos row">
+
+    <div class="blog row">
         <div class="slide">
             <div class="blogItemDiv">
                 <div class="card ">
@@ -331,7 +300,7 @@
                 </div>
             </div>
         </div>
-         <div class="slide">
+        <div class="slide">
             <div class="blogItemDiv">
                 <div class="card">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog3.jpg" class="card-img-top"
@@ -366,10 +335,10 @@ $(".lead-gal-img").hover(function() {
 
 
 $(document).ready(function() {
-    $('.customer-logos').slick({
+    $('.blog').slick({
         centerMode: true,
-        centerPadding: '10px',
-        adaptiveHeight:true,
+        variableWidth: true,
+        centerPadding: '100px',
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
@@ -380,7 +349,7 @@ $(document).ready(function() {
         responsive: [{
             breakpoint: 768,
             centerMode: true,
-            centerPadding: '40px', 
+            centerPadding: '40px',
             settings: {
                 slidesToShow: 3
             }

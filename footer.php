@@ -1,7 +1,8 @@
 <footer>
     <div class="row">
         <div class="col-md-2 offset-md-10 float-right">
-            <button type="button" name="" id="" class="btn btn-lg btn-block reachus-btn">Reach Us</button>
+            <button type="button" name="" id="" class="btn btn-lg btn-block reachus-btn"> 
+                <img style="margin-right: 10px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon_reachus.svg" aria-hidden="true"></img>Reach Us</button>
         </div>
     </div>
     <div class="row footer-row">
@@ -11,15 +12,14 @@
                     <a href="#">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_white.svg" width="40"
                             height="40" alt="Kopuram Logo">
-                        <img style="margin-left:10px"
-                            src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_text_white.svg"
+                        <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_text_white.svg"
                             alt="Kopuram Logo"></a>
                     <p class="footcmd"> “ adipiscing elit, sed do eiusmod labore et dolore magna aliqua”</p>
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-2">
-                            <h5>Kopuram</h5>
+                            <h5 class="foot-menu">Kopuram</h5>
                             <ul class="footlist">
                                 <li>lorem</li>
                                 <li>ipsum</li>
@@ -29,7 +29,7 @@
 
                         </div>
                         <div class="col-md-2">
-                            <h5>About</h5>
+                            <h5 class="foot-menu">About</h5>
                             <ul class="footlist">
                                 <li>lorem</li>
                                 <li>ipsum</li>
@@ -38,7 +38,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3">
-                            <h5>Why Kash?</h5>
+                            <h5 class="foot-menu">Why Kash?</h5>
                             <ul class="footlist">
                                 <li>lorem</li>
                                 <li>ipsum</li>
@@ -47,7 +47,7 @@
                             </ul>
                         </div>
                         <div class="col-md-2">
-                            <h5>Schemes</h5>
+                            <h5 class="foot-menu">Schemes</h5>
                             <ul class="footlist">
                                 <li>lorem</li>
                                 <li>ipsum</li>
@@ -56,18 +56,19 @@
                             </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-2">
-                    <h5>Subscribe</h5>
+                </div>                
+                <div class="col-md-2" style="margin-left:60px">
+                    <h5 class="foot-menu">Subscribe</h5>
                     <div class="form-group">
                         <input type="text" class="form-control shadow-none" name="" id="subscribe_input"
                             aria-describedby="helpId" placeholder="Your email">
+                      <img style="float: right; margin-top: -20px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon_go.svg" aria-hidden="true"></img>
                     </div>
                     <div class="social">
-                        <i class="fa fa-pinterest-square fa-lg" aria-hidden="true"></i>
-                        <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i>
-                        <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
-                        <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+                        <img style="margin-left:0px" src="<?php echo get_template_directory_uri(); ?>/assets/images/social_pinterest.svg" aria-hidden="true"></img>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/social_blog.svg" aria-hidden="true"></img>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/social_linked_in.svg" aria-hidden="true"></img>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/social_twitter.svg" aria-hidden="true"></img>
                     </div>
                 </div>
             </div>
