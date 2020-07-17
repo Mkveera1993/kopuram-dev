@@ -1,17 +1,57 @@
 <?php get_header(); ?>
 <section>
-    <div class="row">
-        <div class="col-md-5 text-left">
-            <img class="pt-30" src="<?php echo get_template_directory_uri(); ?>/assets/images/hashkash_text.svg"
-                alt="Kopuram Logo">
-            <p class="welcome_description">Kopuram is now evolving its business in the form of related outlets<p>
-                    <button type="button" name="" id=""
-                        class="btn text-white kp-bg-primary shadow_primary btn-lg mt-4  readmore-button">Read
-                        more</button>
+    <div class="row banner">
+        <div class="slide">
+            <div class="row">
+                <div class="col-md-5 text-left">
+                    <img class="pt-30" src="<?php echo get_template_directory_uri(); ?>/assets/images/hashkash_text.svg"
+                        alt="Kopuram Logo">
+                    <p class="welcome_description">Kopuram is now evolving its business in the form of related outlets
+                        <p>
+                            <button type="button" name="" id=""
+                                class="btn text-white kp-bg-primary shadow_primary btn-lg mt-4  readmore-button">Read
+                                more</button>
+                </div>
+                <div class="col-md-7">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wallet.jpg"
+                        alt="Chit Fund Card">
+                </div>
+            </div>
+
         </div>
-        <div class="col-md-7">
-            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wallet.jpg"
-                alt="Chit Fund Card">
+        <div class="slide">
+            <div class="row">
+                <div class="col-md-5 text-left">
+                    <img class="pt-30" src="<?php echo get_template_directory_uri(); ?>/assets/images/hashkash_text.svg"
+                        alt="Kopuram Logo">
+                    <p class="welcome_description">Kopuram is now evolving its business in the form of related outlets
+                        <p>
+                            <button type="button" name="" id=""
+                                class="btn text-white kp-bg-primary shadow_primary btn-lg mt-4  readmore-button">Read
+                                more</button>
+                </div>
+                <div class="col-md-7">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wallet.jpg"
+                        alt="Chit Fund Card">
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="row">
+                <div class="col-md-5 text-left">
+                    <img class="pt-30" src="<?php echo get_template_directory_uri(); ?>/assets/images/hashkash_text.svg"
+                        alt="Kopuram Logo">
+                    <p class="welcome_description">Kopuram is now evolving its business in the form of related outlets
+                        <p>
+                            <button type="button" name="" id=""
+                                class="btn text-white kp-bg-primary shadow_primary btn-lg mt-4  readmore-button">Read
+                                more</button>
+                </div>
+                <div class="col-md-7">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wallet.jpg"
+                        alt="Chit Fund Card">
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -212,23 +252,84 @@
     </div>
 </section>
 <section>
-        <div class="row ">
-            <div class="col-md-10 offset-md-1 text-center">
-                <h1 class="kp-text-secondory title_text">Testimonials</h1>
-                <p class="welcome_description ">Our customers love what we do<p>
+    <div class="row ">
+        <div class="col-md-10 offset-md-1 text-center">
+            <h1 class="kp-text-secondory title_text">Testimonials</h1>
+            <p class="welcome_description ">Our customers love what we do<p>
+        </div>
+    </div>
+    <div class="row testimonials" style="margin-top:50px">
+        <div class="slide">
+            <div class="col-md-6">
+                <div class="active-testi">
+                    <p class="testi-text kp-text-secondory ">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed
+                        diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                        At
+                        vero eos et accusam et justo duo dolo"</p>
+                </div>
             </div>
         </div>
-        <div class="row" style="margin-top:50px">
-        <div class="col-md-3">
-        </div>
-        <div class="col-md-6">
-            <div class="active-testi">
-                    <p class="testi-text kp-text-secondory ">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolo"</p>
+        <div class="slide">
+            <div class="col-md-6">
+                <div class="active-testi">
+                    <p class="testi-text kp-text-secondory ">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed
+                        diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                        At
+                        vero eos et accusam et justo duo dolo"</p>
+                </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="slide">
+            <div class="col-md-6">
+                <div class="active-testi">
+                    <p class="testi-text kp-text-secondory ">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed
+                        diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                        At
+                        vero eos et accusam et justo duo dolo"</p>
+                </div>
+            </div>
         </div>
-    </section>
+        <div class="slide">
+            <div class="col-md-6">
+                <div class="active-testi">
+                    <p class="testi-text kp-text-secondory ">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed
+                        diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                        At
+                        vero eos et accusam et justo duo dolo"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 mx-auto">
+            <div class="text-center">
+                <ol class="testi-indicator">
+                    <li>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/profile1.jpeg" />                        
+                        <!-- <h5 class="testi-name">John Doe<h5> -->
+                    </li>
+                    <li>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/profile2.jpeg" />
+                        <!-- <h5 class="testi-name">John Doe<h5> -->
+                    </li>
+                    <li>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/profile5.jpeg" />
+                        <!-- <h5 class="testi-name">John Doe<h5> -->
+                    </li>
+                    <li>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/profile6.jpeg" />
+                        <!-- <h5 class="testi-name">John Doe<h5> -->
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+    </div>
+</section>
 <section>
     <div class="row ">
         <div class="text-center">
@@ -240,7 +341,6 @@
     </div>
 </section>
 <section style="padding-left:0px;padding-right:0px">
-
     <div class="blog row">
         <div class="slide">
             <div class="blogItemDiv">
@@ -334,7 +434,34 @@ $(".lead-gal-img").hover(function() {
 });
 
 
-$(document).ready(function() {
+
+
+    $('.banner').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        speed:2000,
+        autoplaySpeed: 5000,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            centerMode: true,
+            centerPadding: '40px',
+            settings: {
+                slidesToShow: 1
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 1
+            }
+        }]
+    });
+
+
     $('.blog').slick({
         centerMode: true,
         variableWidth: true,
@@ -360,6 +487,50 @@ $(document).ready(function() {
             }
         }]
     });
+
+
+
+    $('.testimonials').slick({
+        centerMode: true,
+        variableWidth: true,
+        centerPadding: '100px',
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        speed: 1000,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            centerMode: true,
+            centerPadding: '40px',
+            settings: {
+                slidesToShow: 3
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+
+    // On before slide change
+    $(`.testi-indicator li:nth-child(1) img`).addClass('active');
+    $(`.testi-indicator .testi-name`).hide();
+    $(`.testi-indicator li:nth-child(1) .testi-name`).show();
+    $('.testimonials').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+        $(`.testi-indicator li:nth-child(${currentSlide+1}) img`).removeClass('active');
+        $(`.testi-indicator li:nth-child(${nextSlide+1}) img`).addClass('active');
+        $(`.testi-indicator li:nth-child(${currentSlide+1}) .testi-name`).hide();
+        $(`.testi-indicator li:nth-child(${nextSlide+1}) .testi-name`).show();
+    });
+
+$(`.testi-indicator li`).click(function(){
+    var index = $(this).index();
+    $('.testimonials').slick('slickGoTo',index);
 });
 </script>
 <?php get_footer();  ?>
